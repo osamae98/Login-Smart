@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="Bookmark your favorite sites">
+    <meta name="keywords" content="Bookmark, favorite sites, save links">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+<div class="container my-5 text-center">
+    <div class="group m-auto w-75 p-5">
+        <h1 class="">Smart Login System
+</h1>
+
+<input type="text" id=signUpName placeholder="Enter your name" class="form-control mt-3">
+<div id="nameError" class="error"></div>
+
+<input type="text" id=signUpEmail placeholder="Enter your email" class="form-control mt-3">
+<div id="signUpEmailError" class="error"></div>
+
+<input type="password" id=signUpPassword placeholder="Enter your password" class="form-control mt-3">
+<div id="signUpPasswordError" class="error"></div>
+
+<button onclick="signUp()" class="btn btn-outline-info w-100 my-3">Sign UP</button>
+
+
+<p class="text-white">You have an account? <a class="text-white" href="signin.html">Signin</a></p>
+    </div>
+</div>
+    <!-- bootstrap JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!-- Main JS -->
+    <script src="./assets/js/index.js"></script>
+</body>
+
+</html>
